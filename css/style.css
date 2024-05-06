@@ -29,3 +29,21 @@
     inherits: false;
     initial-value: 0%
 }
+
+/* Navbar & footer */
+:is(.navbar, .offcanvas, footer) {
+    background-color: black;
+    
+}
+
+:is(.nav-link) {
+    color: white;
+}
+
+img[alt="logo"] {
+    width: 7rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+    
+}
