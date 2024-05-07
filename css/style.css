@@ -47,11 +47,16 @@ body {
 }
 
 img[alt="logo"] {
+
     width: 4rem;
+
+    width: 7rem;
+
     aspect-ratio: 1/1;
     object-fit: cover;
     object-position: center;
     
+
 }
 .nav-link {
     color:red;
@@ -93,4 +98,6 @@ img[alt='profile'] img:hover {
     0 0 90px red,
     0 0 100px red,
     0 0 150px red;
+
+ main
 }
