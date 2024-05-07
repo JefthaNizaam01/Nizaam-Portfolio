@@ -47,33 +47,34 @@ body {
 }
 
 img[alt="logo"] {
-    width: 4rem;
+    width: 7rem;
     aspect-ratio: 1/1;
-    object-fit: cover;
     object-position: center;
     
 }
+
 .nav-link {
-    color:red;
+    color:var(--nav-color);
     font-family: Helvetica;
     font-size: 1.2rem;
     font-weight: bold;
     transition: .5s;
     overflow:hidden;
     padding:  25px 30px;
-
-    
 }
+/* nav-link hover red colour */
 .nav-link:hover {
-    background-color: red;
+    background-color: var(--nav-color);
     border-radius: 20%;
     color:black;
-    box-shadow: 0 0 5px red,0 0 25px red,0 0 50px red;
+    box-shadow: 0 0 5px --nav-color,0 0 25px --nav-color,0 0 50px red;
     -webkit-box-reflect: below 1px linear-gradient(transparent, black);
 }
 img[alt='profile'] {
     border-radius: 20%;
     width: 28vw;
+    margin-top: 100px;
+
     box-shadow: 0 0 25px red;
     cursor: pointer;
 
@@ -82,6 +83,7 @@ img[alt='profile'] img:hover {
     transform: scale(1);
     filter: drop-shadow(0 0 25px red);
 }
+/* My name,surname and text glowing */
 .name, .developer, .lead {
     color:white;
     text-shadow:
@@ -94,18 +96,22 @@ img[alt='profile'] img:hover {
     0 0 100px red,
     0 0 150px red;
 }
+.developer {
+    margin-top:50px;
+}
+/* Bubble background */
 .bubbles {
     position: relative;
     display: flex;
     z-index: -100;
 }
+/* bubble properties like size and round */
 .bubbles span
 {
     position: relative;
     width: 1.875rem;
     height: 1.875rem;
     background: #4fc3dc;
-    margin: 0 0.25rem;
     border-radius: 50%;
     box-shadow: 0 0 0 0.625rem #4fc3dc44, 0 0 3.125rem #4fc3dc, 0 0 6.25rem #4fc3dc;
     animation: animate 15s linear infinite;
@@ -127,6 +133,7 @@ img[alt='profile'] img:hover {
         transform:translateY(-10vh) scale(1);
     }
 }
+/* bubbles responsive for mobile */
 @media screen and (max-width: 768px) {
     .bubbles {
         flex-wrap: wrap;
@@ -135,6 +142,7 @@ img[alt='profile'] img:hover {
 
     .bubbles span {
         margin: 0.5rem;
+        
     }
 
     .bubbles span:nth-child(even) {
