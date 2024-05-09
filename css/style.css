@@ -74,7 +74,6 @@ img[alt='profile'] {
     border-radius: 20%;
     width: 28vw;
     margin-top: 100px;
-
     box-shadow: 0 0 25px red;
     cursor: pointer;
 
@@ -112,6 +111,7 @@ img[alt='profile'] img:hover {
     width: 1.875rem;
     height: 1.875rem;
     background: #4fc3dc;
+    margin: 0 0.25rem;
     border-radius: 50%;
     box-shadow: 0 0 0 0.625rem #4fc3dc44, 0 0 3.125rem #4fc3dc, 0 0 6.25rem #4fc3dc;
     animation: animate 15s linear infinite;
