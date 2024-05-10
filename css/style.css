@@ -358,5 +358,5 @@ font-size: 1.313rem;
     display: flex;
     justify-content: center;
     grid-template-columns: repeat(2, auto); 
-    gap: 27.25rem; 
+    gap: 10.25rem; 
   }
