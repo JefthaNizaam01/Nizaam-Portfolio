@@ -319,3 +319,32 @@ text-shadow: 0 0 15px white;
 .form-control, .input-group-text {
     border-color: black;
 }
+/* ScrollBar */
+::-webkit-scrollbar {
+    width: 0.938rem;
+}
+::-webkit-scrollbar-track {
+    background: #d1e5ff;
+}
+/* Scrollbar Colour */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#ff512f , #dd2476);
+}
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px rgba(0,0,0,0.1); 
+  }
+  .day {
+    color:red;
+    font-size: 1.125rem;
+    font-family: sans-serif;
+  }
+  .font {
+    font-family: sans-serif;
+  }
+  #resbutton {
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(2, auto); 
+    gap: 27.25rem; 
+  }
