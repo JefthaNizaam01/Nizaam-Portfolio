@@ -278,3 +278,18 @@ ul.timeline-list li:before {
     width: 18.75rem;
     
  }
+ #testimonials {
+    border: 3px solid #ccc; 
+    padding: 10px;
+    
+    box-shadow: 0 0 10px red,0 0 20px red, 0 0 50px red 
+  }
+  .carousel-content {
+    color: white;
+  }
+  .carousel-content h3 {
+    font-weight: bold;  
+  }
+  .carousel-content p {
+    font-size: 1.125rem;
+  }
