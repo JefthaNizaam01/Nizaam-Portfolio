@@ -319,6 +319,7 @@ text-shadow: 0 0 15px white;
 .form-control, .input-group-text {
     border-color: black;
 }
+
 /* ScrollBar */
 ::-webkit-scrollbar {
     width: 0.938rem;
@@ -348,3 +349,21 @@ text-shadow: 0 0 15px white;
     grid-template-columns: repeat(2, auto); 
     gap: 27.25rem; 
   }
+
+/* Adjusting the footer so that it fits */
+#low {
+    margin-block: 2rem;
+    margin-top: 2rem; 
+    margin-bottom: 0; 
+    padding-top: 1rem; 
+    padding-bottom: 1rem; 
+    background: white;
+
+ 
+}
+/* Footer content like name and year */
+#lowcontent {
+font-size: 1.313rem;
+
+}
+
