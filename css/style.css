@@ -293,3 +293,29 @@ ul.timeline-list li:before {
   .carousel-content p {
     font-size: 1.125rem;
   }
+  #robin {
+    width:25rem;
+    height: 25rem;
+  }
+
+  #formz {
+ background: white;
+ box-shadow: 0 0 20px white;
+ width: 62.5rem;
+ position: sticky;
+ left: 16rem;
+ 
+ 
+  }
+  #sub {
+text-shadow: 0 0 15px white;
+
+  }
+
+  section{
+    scroll-margin-block: 8rem;
+}
+  
+.form-control, .input-group-text {
+    border-color: black;
+}
